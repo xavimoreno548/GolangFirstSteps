@@ -3,5 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello World")
+	// fmt is a package for input and output operations
+	fmt.Println("Hello World!")
 }

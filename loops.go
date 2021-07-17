@@ -15,4 +15,13 @@ func main() {
 		fmt.Printf("While form for - i: %d\n", i)
 		i++
 	}
+
+
+	x := []int{0, 0, 0}
+
+	for index, y := range x {
+		fmt.Printf("indice %d\n", index)
+		fmt.Printf("Valor %d\n", y)
+
+	}
 }
