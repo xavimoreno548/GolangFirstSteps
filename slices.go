@@ -27,7 +27,7 @@ func main() {
 	fmt.Println(cap(slice))
 
 
-	// We can create arrays wit the make sentence, that create an array with len an capacity defined
+	// We can create arrays with the make sentence, that create an array with len an capacity defined
 	sliceMake := make([]int, 5)
 
 	for i := 0; i < 4; i++ {
